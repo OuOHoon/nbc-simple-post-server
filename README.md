@@ -8,7 +8,12 @@ QUERY는 REST API에서 URL이 리소스의 식별값으로 사용되기 때문�
 #### 삭제 API는 DELETE method를 사용하여 password 헤더를 받기로 설계했습니다.
 DELETE method는 전송할 때 body 사용을 지양하기 때문에 헤더로 전송하기로 설계했습니다.
 ## 2. RESTful한 API를 설계하셨나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
-RESTful한 API를 설계했습니다. 각 API마다 적절한 method, url, 상태 코드를 설계했습니다.
+RESTful한 API를 설계했습니다. 각 API마다 적절한 method, url, 상태 코드를 설계했습니다. <br>
+생성 API에서 POST, /posts, 응답으로 201 코드와 게시판 정보를 리턴합니다. <br>
+조회 API에서 GET, /posts/{postId}와 /posts, 응답으로 200 코드와 게시판 정보를 리턴합니다. <br>
+수정 API에서 PUT, /posts/{postId}, 응답으로 200 코드와 게시판 정보를 리턴합니다. <br>
+삭제 API에서 DELETE, /posts/{postId}, 응답으로 204 코드를 리턴합니다.
+
 ## 3. 적절한 관심사 분리를 적용하셨나요? (Controller, Service, Repository)
 Controller, Service, Repository를 적절히 분리했습니다.
 ## 4. API 명세서 작성 가이드라인을 검색하여 직접 작성한 API 명세서와 비교해보세요!
