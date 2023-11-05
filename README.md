@@ -12,7 +12,7 @@ RESTful한 API를 설계했습니다. 각 API마다 적절한 method, url, 상�
 ## 3. 적절한 관심사 분리를 적용하셨나요? (Controller, Service, Repository)
 Controller, Service, Repository를 적절히 분리했습니다.
 ## 4. API 명세서 작성 가이드라인을 검색하여 직접 작성한 API 명세서와 비교해보세요!
-
+Postman을 사용해서 예외 상황들에 대한 예제를 보여주는 것과 표로 만들어서 보여주는 것 모두 장단점이 있다고 생각합니다.
 ## Use Case Diagram
 <img width="793" alt="image" src="https://github.com/OuOHoon/nbc-simple-post-server/assets/17760465/48008b37-0961-454a-adc3-e5dbae8bf750">
 ## API 명세서
