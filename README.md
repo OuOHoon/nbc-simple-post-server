@@ -15,6 +15,7 @@ Controller, Service, Repository를 적절히 분리했습니다.
 Postman을 사용해서 예외 상황들에 대한 예제를 보여주는 것과 표로 만들어서 보여주는 것 모두 장단점이 있다고 생각합니다. 예제는 어떤 값에 어떤 예외가 발생했는지 알 수 있어서 좋지만 한 눈에 확인하기 좋지 않습니다. 표로 만든 명세서는 한 눈에 알 수 있어서 좋지만 표의 특성상 어떤 값에 어떤 예외가 발생했는지 확인하기 불편합니다.
 ## Use Case Diagram
 <img width="793" alt="image" src="https://github.com/OuOHoon/nbc-simple-post-server/assets/17760465/48008b37-0961-454a-adc3-e5dbae8bf750">
+
 ## API 명세서
 https://documenter.getpostman.com/view/17745457/2s9YXfa2zW PostMan으로 생성한 API 명세서입니다.
 
