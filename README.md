@@ -20,5 +20,6 @@ Postman을 사용해서 예외 상황들에 대한 예제를 보여주는 것과
 https://documenter.getpostman.com/view/17745457/2s9YXfa2zW PostMan으로 생성한 API 명세서입니다.
 
 ## ERD
-<img width="322" alt="image" src="https://github.com/OuOHoon/nbc-simple-post-server/assets/17760465/0eec8b1e-355e-48db-89bf-e84f2e25bcb7">
+<img width="322" alt="image" src="https://github.com/OuOHoon/nbc-simple-post-server/assets/17760465/2d78362f-9592-4e32-b881-ef90f2b47640">
+
 
