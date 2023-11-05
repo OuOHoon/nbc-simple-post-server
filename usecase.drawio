@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2023-11-03T07:42:12.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZM0p5DjzuXLws0VY-oQB" version="22.0.8" type="device">
+  <diagram name="페이지-1" id="sjKX_qMRQAdjIj7NiZx-">
+    <mxGraphModel dx="1239" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fz58r6z3J6_KeizlAf2z-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-1" target="fz58r6z3J6_KeizlAf2z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-1" target="fz58r6z3J6_KeizlAf2z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-1" target="fz58r6z3J6_KeizlAf2z-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-1" target="fz58r6z3J6_KeizlAf2z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-1" target="fz58r6z3J6_KeizlAf2z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="70" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-2" value="게시글 작성" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-12" value="선택한 게시글 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-13" value="게시글 목록 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-14" target="fz58r6z3J6_KeizlAf2z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-60" value="응답 값" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz58r6z3J6_KeizlAf2z-43">
+          <mxGeometry x="0.7636" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-14" value="선택한 게시글 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-15" value="선택한 게시글 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-16" value="게시글 Rest API" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="350" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-22" value="Database" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="585" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-2" target="fz58r6z3J6_KeizlAf2z-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-13" target="fz58r6z3J6_KeizlAf2z-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-12" target="fz58r6z3J6_KeizlAf2z-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-14" target="fz58r6z3J6_KeizlAf2z-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-15" target="fz58r6z3J6_KeizlAf2z-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-57" value="Auth" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="690" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fz58r6z3J6_KeizlAf2z-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fz58r6z3J6_KeizlAf2z-57" target="fz58r6z3J6_KeizlAf2z-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
